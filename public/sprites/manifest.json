@@ -1,0 +1,87 @@
+{
+  "1": {
+    "folder": "0001",
+    "anims": [
+      "Walk",
+      "Idle",
+      "Attack",
+      "Shoot",
+      "Hurt",
+      "Faint"
+    ]
+  },
+  "4": {
+    "folder": "0004",
+    "anims": [
+      "Walk",
+      "Idle",
+      "Attack",
+      "Shoot",
+      "Hurt",
+      "Faint"
+    ]
+  },
+  "7": {
+    "folder": "0007",
+    "anims": [
+      "Walk",
+      "Idle",
+      "Attack",
+      "Shoot",
+      "Hurt",
+      "Faint"
+    ]
+  },
+  "16": {
+    "folder": "0016",
+    "anims": [
+      "Walk",
+      "Idle",
+      "Attack",
+      "Shoot",
+      "Hurt",
+      "Faint"
+    ]
+  },
+  "19": {
+    "folder": "0019",
+    "anims": [
+      "Walk",
+      "Idle",
+      "Attack",
+      "Shoot",
+      "Hurt"
+    ]
+  },
+  "25": {
+    "folder": "0025",
+    "anims": [
+      "Walk",
+      "Idle",
+      "Attack",
+      "Shoot",
+      "Hurt",
+      "Faint"
+    ]
+  },
+  "41": {
+    "folder": "0041",
+    "anims": [
+      "Walk",
+      "Idle",
+      "Attack",
+      "Shoot",
+      "Hurt"
+    ]
+  },
+  "74": {
+    "folder": "0074",
+    "anims": [
+      "Walk",
+      "Idle",
+      "Attack",
+      "Shoot",
+      "Hurt"
+    ]
+  }
+}

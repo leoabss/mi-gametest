@@ -1,0 +1,681 @@
+{
+  "meta": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/api-data/master/data",
+    "generatedAt": "2026-11-15T17:18:35.123Z",
+    "license": "Datos de PokeAPI (https://pokeapi.co)"
+  },
+  "pokemon": {
+    "1": {
+      "id": 1,
+      "key": "bulbasaur",
+      "name": "Bulbasaur",
+      "role": "starter",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "stats": {
+        "hp": 45,
+        "attack": 49,
+        "defense": 49,
+        "spAttack": 65,
+        "spDefense": 65,
+        "speed": 45
+      },
+      "height": 7,
+      "weight": 69,
+      "baseExperience": 64,
+      "captureRate": 45,
+      "learnset": {
+        "versionGroup": "scarlet-violet",
+        "moves": [
+          {
+            "key": "tackle",
+            "level": 1
+          },
+          {
+            "key": "growl",
+            "level": 1
+          },
+          {
+            "key": "vine-whip",
+            "level": 3
+          },
+          {
+            "key": "growth",
+            "level": 6
+          },
+          {
+            "key": "leech-seed",
+            "level": 9
+          },
+          {
+            "key": "razor-leaf",
+            "level": 12
+          },
+          {
+            "key": "poison-powder",
+            "level": 15
+          },
+          {
+            "key": "sleep-powder",
+            "level": 15
+          },
+          {
+            "key": "seed-bomb",
+            "level": 18
+          },
+          {
+            "key": "take-down",
+            "level": 21
+          },
+          {
+            "key": "sweet-scent",
+            "level": 24
+          },
+          {
+            "key": "synthesis",
+            "level": 27
+          },
+          {
+            "key": "worry-seed",
+            "level": 30
+          },
+          {
+            "key": "power-whip",
+            "level": 33
+          },
+          {
+            "key": "solar-beam",
+            "level": 36
+          }
+        ]
+      }
+    },
+    "4": {
+      "id": 4,
+      "key": "charmander",
+      "name": "Charmander",
+      "role": "starter",
+      "types": [
+        "fire"
+      ],
+      "stats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "spAttack": 60,
+        "spDefense": 50,
+        "speed": 65
+      },
+      "height": 6,
+      "weight": 85,
+      "baseExperience": 62,
+      "captureRate": 45,
+      "learnset": {
+        "versionGroup": "scarlet-violet",
+        "moves": [
+          {
+            "key": "scratch",
+            "level": 1
+          },
+          {
+            "key": "growl",
+            "level": 1
+          },
+          {
+            "key": "ember",
+            "level": 4
+          },
+          {
+            "key": "smokescreen",
+            "level": 8
+          },
+          {
+            "key": "dragon-breath",
+            "level": 12
+          },
+          {
+            "key": "fire-fang",
+            "level": 17
+          },
+          {
+            "key": "slash",
+            "level": 20
+          },
+          {
+            "key": "flamethrower",
+            "level": 24
+          },
+          {
+            "key": "scary-face",
+            "level": 28
+          },
+          {
+            "key": "fire-spin",
+            "level": 32
+          },
+          {
+            "key": "inferno",
+            "level": 36
+          },
+          {
+            "key": "flare-blitz",
+            "level": 40
+          }
+        ]
+      }
+    },
+    "7": {
+      "id": 7,
+      "key": "squirtle",
+      "name": "Squirtle",
+      "role": "starter",
+      "types": [
+        "water"
+      ],
+      "stats": {
+        "hp": 44,
+        "attack": 48,
+        "defense": 65,
+        "spAttack": 50,
+        "spDefense": 64,
+        "speed": 43
+      },
+      "height": 5,
+      "weight": 90,
+      "baseExperience": 63,
+      "captureRate": 45,
+      "learnset": {
+        "versionGroup": "scarlet-violet",
+        "moves": [
+          {
+            "key": "tackle",
+            "level": 1
+          },
+          {
+            "key": "tail-whip",
+            "level": 1
+          },
+          {
+            "key": "water-gun",
+            "level": 3
+          },
+          {
+            "key": "withdraw",
+            "level": 6
+          },
+          {
+            "key": "rapid-spin",
+            "level": 9
+          },
+          {
+            "key": "bite",
+            "level": 12
+          },
+          {
+            "key": "water-pulse",
+            "level": 15
+          },
+          {
+            "key": "protect",
+            "level": 18
+          },
+          {
+            "key": "rain-dance",
+            "level": 21
+          },
+          {
+            "key": "aqua-tail",
+            "level": 24
+          },
+          {
+            "key": "shell-smash",
+            "level": 27
+          },
+          {
+            "key": "iron-defense",
+            "level": 30
+          },
+          {
+            "key": "hydro-pump",
+            "level": 33
+          },
+          {
+            "key": "wave-crash",
+            "level": 36
+          }
+        ]
+      }
+    },
+    "16": {
+      "id": 16,
+      "key": "pidgey",
+      "name": "Pidgey",
+      "role": "enemy",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 40,
+        "spAttack": 35,
+        "spDefense": 35,
+        "speed": 56
+      },
+      "height": 3,
+      "weight": 18,
+      "baseExperience": 50,
+      "captureRate": 255,
+      "learnset": {
+        "versionGroup": "ultra-sun-ultra-moon",
+        "moves": [
+          {
+            "key": "tackle",
+            "level": 1
+          },
+          {
+            "key": "sand-attack",
+            "level": 5
+          },
+          {
+            "key": "gust",
+            "level": 9
+          },
+          {
+            "key": "quick-attack",
+            "level": 13
+          },
+          {
+            "key": "whirlwind",
+            "level": 17
+          },
+          {
+            "key": "twister",
+            "level": 21
+          },
+          {
+            "key": "feather-dance",
+            "level": 25
+          },
+          {
+            "key": "agility",
+            "level": 29
+          },
+          {
+            "key": "wing-attack",
+            "level": 33
+          },
+          {
+            "key": "roost",
+            "level": 37
+          },
+          {
+            "key": "tailwind",
+            "level": 41
+          },
+          {
+            "key": "mirror-move",
+            "level": 45
+          },
+          {
+            "key": "air-slash",
+            "level": 49
+          },
+          {
+            "key": "hurricane",
+            "level": 53
+          }
+        ]
+      }
+    },
+    "19": {
+      "id": 19,
+      "key": "rattata",
+      "name": "Rattata",
+      "role": "enemy",
+      "types": [
+        "normal"
+      ],
+      "stats": {
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "spAttack": 25,
+        "spDefense": 35,
+        "speed": 72
+      },
+      "height": 3,
+      "weight": 35,
+      "baseExperience": 51,
+      "captureRate": 255,
+      "learnset": {
+        "versionGroup": "ultra-sun-ultra-moon",
+        "moves": [
+          {
+            "key": "tackle",
+            "level": 1
+          },
+          {
+            "key": "tail-whip",
+            "level": 1
+          },
+          {
+            "key": "quick-attack",
+            "level": 4
+          },
+          {
+            "key": "focus-energy",
+            "level": 7
+          },
+          {
+            "key": "bite",
+            "level": 10
+          },
+          {
+            "key": "pursuit",
+            "level": 13
+          },
+          {
+            "key": "hyper-fang",
+            "level": 16
+          },
+          {
+            "key": "assurance",
+            "level": 19
+          },
+          {
+            "key": "crunch",
+            "level": 22
+          },
+          {
+            "key": "sucker-punch",
+            "level": 25
+          },
+          {
+            "key": "super-fang",
+            "level": 28
+          },
+          {
+            "key": "double-edge",
+            "level": 31
+          },
+          {
+            "key": "endeavor",
+            "level": 34
+          }
+        ]
+      }
+    },
+    "25": {
+      "id": 25,
+      "key": "pikachu",
+      "name": "Pikachu",
+      "role": "enemy",
+      "types": [
+        "electric"
+      ],
+      "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "spAttack": 50,
+        "spDefense": 50,
+        "speed": 90
+      },
+      "height": 4,
+      "weight": 60,
+      "baseExperience": 112,
+      "captureRate": 190,
+      "learnset": {
+        "versionGroup": "scarlet-violet",
+        "moves": [
+          {
+            "key": "tail-whip",
+            "level": 1
+          },
+          {
+            "key": "growl",
+            "level": 1
+          },
+          {
+            "key": "thunder-shock",
+            "level": 1
+          },
+          {
+            "key": "quick-attack",
+            "level": 1
+          },
+          {
+            "key": "sweet-kiss",
+            "level": 1
+          },
+          {
+            "key": "charm",
+            "level": 1
+          },
+          {
+            "key": "nasty-plot",
+            "level": 1
+          },
+          {
+            "key": "play-nice",
+            "level": 1
+          },
+          {
+            "key": "nuzzle",
+            "level": 1
+          },
+          {
+            "key": "thunder-wave",
+            "level": 4
+          },
+          {
+            "key": "double-team",
+            "level": 8
+          },
+          {
+            "key": "electro-ball",
+            "level": 12
+          },
+          {
+            "key": "feint",
+            "level": 16
+          },
+          {
+            "key": "spark",
+            "level": 20
+          },
+          {
+            "key": "agility",
+            "level": 24
+          },
+          {
+            "key": "iron-tail",
+            "level": 28
+          },
+          {
+            "key": "discharge",
+            "level": 32
+          },
+          {
+            "key": "thunderbolt",
+            "level": 36
+          },
+          {
+            "key": "light-screen",
+            "level": 40
+          },
+          {
+            "key": "thunder",
+            "level": 44
+          }
+        ]
+      }
+    },
+    "41": {
+      "id": 41,
+      "key": "zubat",
+      "name": "Zubat",
+      "role": "enemy",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "stats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "spAttack": 30,
+        "spDefense": 40,
+        "speed": 55
+      },
+      "height": 8,
+      "weight": 75,
+      "baseExperience": 49,
+      "captureRate": 255,
+      "learnset": {
+        "versionGroup": "sword-shield",
+        "moves": [
+          {
+            "key": "supersonic",
+            "level": 1
+          },
+          {
+            "key": "absorb",
+            "level": 1
+          },
+          {
+            "key": "astonish",
+            "level": 5
+          },
+          {
+            "key": "mean-look",
+            "level": 10
+          },
+          {
+            "key": "poison-fang",
+            "level": 15
+          },
+          {
+            "key": "quick-guard",
+            "level": 20
+          },
+          {
+            "key": "air-cutter",
+            "level": 25
+          },
+          {
+            "key": "bite",
+            "level": 30
+          },
+          {
+            "key": "haze",
+            "level": 35
+          },
+          {
+            "key": "venoshock",
+            "level": 40
+          },
+          {
+            "key": "confuse-ray",
+            "level": 45
+          },
+          {
+            "key": "air-slash",
+            "level": 50
+          },
+          {
+            "key": "leech-life",
+            "level": 55
+          }
+        ]
+      }
+    },
+    "74": {
+      "id": 74,
+      "key": "geodude",
+      "name": "Geodude",
+      "role": "enemy",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "stats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "spAttack": 30,
+        "spDefense": 30,
+        "speed": 20
+      },
+      "height": 4,
+      "weight": 200,
+      "baseExperience": 60,
+      "captureRate": 255,
+      "learnset": {
+        "versionGroup": "scarlet-violet",
+        "moves": [
+          {
+            "key": "tackle",
+            "level": 1
+          },
+          {
+            "key": "defense-curl",
+            "level": 1
+          },
+          {
+            "key": "rock-polish",
+            "level": 6
+          },
+          {
+            "key": "rollout",
+            "level": 10
+          },
+          {
+            "key": "bulldoze",
+            "level": 12
+          },
+          {
+            "key": "rock-throw",
+            "level": 16
+          },
+          {
+            "key": "smack-down",
+            "level": 18
+          },
+          {
+            "key": "self-destruct",
+            "level": 24
+          },
+          {
+            "key": "stealth-rock",
+            "level": 28
+          },
+          {
+            "key": "rock-blast",
+            "level": 30
+          },
+          {
+            "key": "earthquake",
+            "level": 34
+          },
+          {
+            "key": "explosion",
+            "level": 36
+          },
+          {
+            "key": "double-edge",
+            "level": 40
+          },
+          {
+            "key": "stone-edge",
+            "level": 42
+          }
+        ]
+      }
+    }
+  }
+}

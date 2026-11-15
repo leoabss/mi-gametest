@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "source": "https://raw.githubusercontent.com/PokeAPI/api-data/master/data",
+    "generatedAt": "2026-11-15T17:18:35.123Z",
+    "license": "Datos de PokeAPI (https://pokeapi.co)"
+  },
+  "types": {
+    "bug": {
+      "name": "Bicho",
+      "double": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "half": [
+        "fighting",
+        "flying",
+        "poison",
+        "ghost",
+        "steel",
+        "fire",
+        "fairy"
+      ],
+      "zero": []
+    },
+    "dark": {
+      "name": "Siniestro",
+      "double": [
+        "ghost",
+        "psychic"
+      ],
+      "half": [
+        "fighting",
+        "dark",
+        "fairy"
+      ],
+      "zero": []
+    },
+    "dragon": {
+      "name": "Dragón",
+      "double": [
+        "dragon"
+      ],
+      "half": [
+        "steel"
+      ],
+      "zero": [
+        "fairy"
+      ]
+    },
+    "electric": {
+      "name": "Eléctrico",
+      "double": [
+        "flying",
+        "water"
+      ],
+      "half": [
+        "grass",
+        "electric",
+        "dragon"
+      ],
+      "zero": [
+        "ground"
+      ]
+    },
+    "fairy": {
+      "name": "Hada",
+      "double": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "half": [
+        "poison",
+        "steel",
+        "fire"
+      ],
+      "zero": []
+    },
+    "fighting": {
+      "name": "Lucha",
+      "double": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "half": [
+        "flying",
+        "poison",
+        "bug",
+        "psychic",
+        "fairy"
+      ],
+      "zero": [
+        "ghost"
+      ]
+    },
+    "fire": {
+      "name": "Fuego",
+      "double": [
+        "bug",
+        "steel",
+        "grass",
+        "ice"
+      ],
+      "half": [
+        "rock",
+        "fire",
+        "water",
+        "dragon"
+      ],
+      "zero": []
+    },
+    "flying": {
+      "name": "Volador",
+      "double": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "half": [
+        "rock",
+        "steel",
+        "electric"
+      ],
+      "zero": []
+    },
+    "ghost": {
+      "name": "Fantasma",
+      "double": [
+        "ghost",
+        "psychic"
+      ],
+      "half": [
+        "dark"
+      ],
+      "zero": [
+        "normal"
+      ]
+    },
+    "grass": {
+      "name": "Planta",
+      "double": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "half": [
+        "flying",
+        "poison",
+        "bug",
+        "steel",
+        "fire",
+        "grass",
+        "dragon"
+      ],
+      "zero": []
+    },
+    "ground": {
+      "name": "Tierra",
+      "double": [
+        "poison",
+        "rock",
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "half": [
+        "bug",
+        "grass"
+      ],
+      "zero": [
+        "flying"
+      ]
+    },
+    "ice": {
+      "name": "Hielo",
+      "double": [
+        "flying",
+        "ground",
+        "grass",
+        "dragon"
+      ],
+      "half": [
+        "steel",
+        "fire",
+        "water",
+        "ice"
+      ],
+      "zero": []
+    },
+    "normal": {
+      "name": "Normal",
+      "double": [],
+      "half": [
+        "rock",
+        "steel"
+      ],
+      "zero": [
+        "ghost"
+      ]
+    },
+    "poison": {
+      "name": "Veneno",
+      "double": [
+        "grass",
+        "fairy"
+      ],
+      "half": [
+        "poison",
+        "ground",
+        "rock",
+        "ghost"
+      ],
+      "zero": [
+        "steel"
+      ]
+    },
+    "psychic": {
+      "name": "Psíquico",
+      "double": [
+        "fighting",
+        "poison"
+      ],
+      "half": [
+        "steel",
+        "psychic"
+      ],
+      "zero": [
+        "dark"
+      ]
+    },
+    "rock": {
+      "name": "Roca",
+      "double": [
+        "flying",
+        "bug",
+        "fire",
+        "ice"
+      ],
+      "half": [
+        "fighting",
+        "ground",
+        "steel"
+      ],
+      "zero": []
+    },
+    "steel": {
+      "name": "Acero",
+      "double": [
+        "rock",
+        "ice",
+        "fairy"
+      ],
+      "half": [
+        "steel",
+        "fire",
+        "water",
+        "electric"
+      ],
+      "zero": []
+    },
+    "water": {
+      "name": "Agua",
+      "double": [
+        "ground",
+        "rock",
+        "fire"
+      ],
+      "half": [
+        "water",
+        "grass",
+        "dragon"
+      ],
+      "zero": []
+    }
+  }
+}
