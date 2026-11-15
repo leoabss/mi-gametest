@@ -30,8 +30,30 @@ Stack: **Phaser 3 + Vite** (JavaScript, ES modules). Publicado en GitHub Pages v
 
 ### Licencia
 - SpriteCollab es **CC BY-NC 4.0** → el proyecto es no comercial y se mantiene `CREDITS.md`
-  con los créditos de cada sprite usado (generado por el script a partir de `credits.txt` / `tracker.json`).
+  con los créditos de cada sprite usado (generado por `scripts/fetch-sprites.mjs` a partir de `credits.txt` + `credit_names.txt`).
 - Pokémon es propiedad de Nintendo / Game Freak / The Pokémon Company. Fangame sin ánimo de lucro.
+
+## Estructura
+```
+scripts/pokemon-list.mjs   Lista única de Pokémon (id + rol starter/enemy)
+scripts/fetch-data.mjs     PokeAPI → data/{pokemon,moves,types}.json (fallback: espejo PokeAPI/api-data en GitHub)
+scripts/fetch-sprites.mjs  SpriteCollab → public/sprites/<dex>/ + manifest.json + CREDITS.md
+src/data/index.js          Acceso a los JSON + fórmulas de stats/tipos
+src/systems/SpriteLoader.js  Cargador genérico AnimData.xml → anims `pkmn-<id>-<Anim>-<dir 0..7>`
+src/systems/MoveRules.js   Motor de reglas movimiento → ataque (TYPE_RULES, forma, cadencia, estados)
+src/systems/Combat.js      Fórmula de daño (STAB, eficacia, crítico)
+src/systems/AttackSystem.js  Ejecuta proyectiles / golpes en área / ondas
+src/systems/WaveDirector.js  Oleadas por reglas (menor suma de stats base aparece antes)
+src/entities/              PokemonActor (genérico) → Player, Enemy
+src/scenes/                Boot → Select → Game (+ UI, LevelUp, GameOver)
+```
+
+## Notas técnicas
+- La red del entorno de Claude Code puede bloquear pokeapi.co; `fetch-data.mjs` cae al espejo estático
+  `raw.githubusercontent.com/PokeAPI/api-data` (mismos JSON). Los scripts relanzan Node con
+  `NODE_USE_ENV_PROXY=1` si hay `HTTPS_PROXY`.
+- Teclado: registrar teclas con `onKeys()` (src/ui/keys.js), que deduplica eventos nativos repetidos.
+- `window.game` expone la instancia de Phaser para depurar.
 
 ## Convenciones
 - Añadir un Pokémon = añadirlo a la lista del script, re-ejecutar los scripts, listo.
