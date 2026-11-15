@@ -1,0 +1,21 @@
+{
+  "name": "pokemon-survivors",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Fangame no comercial estilo Vampire Survivors con Pokémon (Phaser 3 + Vite)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch:data": "node scripts/fetch-data.mjs",
+    "fetch:sprites": "node scripts/fetch-sprites.mjs",
+    "fetch:all": "npm run fetch:data && npm run fetch:sprites"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.6"
+  }
+}
